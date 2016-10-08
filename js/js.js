@@ -47,4 +47,14 @@ var grid = document.getElementById('grid');
 
     }
 
+  	
+
+
+  	$('.remove').click(function(){
+  		var line_num = $(this).data('remove');
+  		$('tr[data-line='+line_num+']').remove();
+  	});
+
+  
+
     });

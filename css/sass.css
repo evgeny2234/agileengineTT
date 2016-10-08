@@ -155,7 +155,8 @@ body {
         width: 220px;
         height: 30px;
         border-radius: 4px;
-        border: 1px solid #d6d6d5; }
+        border: 1px solid #d6d6d5;
+        margin-right: 15px; }
   body > main {
     width: 100%;
     height: auto; }
@@ -164,7 +165,8 @@ body {
       width: 249px;
       border-right: 1px solid #eaeaea;
       height: 600px;
-      padding-top: 7px; }
+      padding-top: 7px;
+      float: left; }
       body > main > .left_menu > .list {
         height: 41px;
         width: 240px;
@@ -185,8 +187,9 @@ body {
       display: inline-block;
       height: 600px;
       width: 1650px;
-      float: right;
-      padding-top: 7px; }
+      float: left;
+      padding-top: 7px;
+      margin-left: 4px; }
       body > main > .right_menu > .test_block {
         border: 1px solid #eaeaea;
         width: 366px;
@@ -275,6 +278,20 @@ body {
             body > main > .right_menu > .table-grid > #grid tr > th:nth-child(1) {
               width: 130px;
               padding-left: 8px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(2) {
+              width: 188px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(3) {
+              width: 260px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(4) {
+              width: 210px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(5) {
+              width: 215px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(6) {
+              width: 200px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(7) {
+              width: 260px; }
+            body > main > .right_menu > .table-grid > #grid tr > th:nth-child(8) {
+              width: 170px; }
           body > main > .right_menu > .table-grid > #grid tr > td {
             font-size: 12px;
             font-weight: 600;
@@ -332,6 +349,20 @@ body {
                   margin-left: -6px; }
                   body > main > .right_menu > .table-grid > #grid tr > td:nth-child(8) > .control_buttons > button:hover {
                     background: linear-gradient(#ececec, #ffffff); }
+                  body > main > .right_menu > .table-grid > #grid tr > td:nth-child(8) > .control_buttons > button::after {
+                    position: absolute;
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    content: "";
+                    top: 4px;
+                    left: 14px; }
+                  body > main > .right_menu > .table-grid > #grid tr > td:nth-child(8) > .control_buttons > button.check::after {
+                    background: url(../img/diff.png) 0 0 no-repeat; }
+                  body > main > .right_menu > .table-grid > #grid tr > td:nth-child(8) > .control_buttons > button.success::after {
+                    background: url(../img/approveAll.png) 0 0 no-repeat; }
+                  body > main > .right_menu > .table-grid > #grid tr > td:nth-child(8) > .control_buttons > button.remove::after {
+                    background: url(../img/clear.png) 0 0 no-repeat; }
           body > main > .right_menu > .table-grid > #grid > thead {
             background-color: #9a9a9a !important; }
             body > main > .right_menu > .table-grid > #grid > thead > tr > th {

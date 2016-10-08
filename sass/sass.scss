@@ -202,6 +202,7 @@ body {
 						height: 30px;
 						border-radius: 4px;
 						border: 1px solid #d6d6d5;
+						margin-right: 15px;
 					}
 				}
 			}
@@ -216,6 +217,7 @@ body {
 			border-right: 1px solid #eaeaea;
 			height: 600px;
 			padding-top: 7px;
+			float: left;
 			> .list {
 				height: 41px;
 				width: 240px;
@@ -240,8 +242,9 @@ body {
 			display: inline-block;
 			height: 600px;
 			width: 1650px;
-			float: right;
+			float: left;
 			padding-top: 7px;
+			margin-left: 4px;
 			> .test_block {
 				border: 1px solid #eaeaea;
 				width: 366px;
@@ -365,6 +368,27 @@ body {
 								width: 130px;
 								padding-left: 8px;
 							}
+							&:nth-child(2) {
+								width: 188px;
+							}
+							&:nth-child(3) {
+								width: 260px;
+							}
+							&:nth-child(4) {
+								width: 210px;
+							}
+							&:nth-child(5) {
+								width: 215px;
+							}
+							&:nth-child(6) {
+								width: 200px;
+							}
+							&:nth-child(7) {
+								width: 260px;
+							}
+							&:nth-child(8) {
+								width: 170px;
+							}
 						}
 						> td {
 							font-size: 12px;
@@ -430,7 +454,30 @@ body {
 										&:hover {
 											background: linear-gradient(#ececec, #ffffff);
 										}
-
+										&::after {
+										 	position: absolute;
+										 	display: block;
+										 	width: 20px;
+										 	height: 20px;
+										 	content: "";
+										 	top: 4px;
+										 	left: 14px;
+										}
+										&.check {
+											&::after {
+												background: url(../img/diff.png) 0 0 no-repeat;
+											}
+										}
+										&.success {
+											&::after {
+												background: url(../img/approveAll.png) 0 0 no-repeat;
+											}		
+										}
+										&.remove {
+											&::after {
+												background: url(../img/clear.png) 0 0 no-repeat;
+											}
+										}
 									}
 								}
 							}

@@ -7,7 +7,6 @@
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/js.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/npm.js"></script>
 	<link href="css/sass.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
 
@@ -115,15 +114,15 @@
         <th data-type="number">ID</th>
         <th data-type="number">Result</th>
         <th data-type="string">Name</th>
-        <th data-type="string">Run date</th>
-        <th data-type="string">Run time</th>
+        <th data-type="string">Run Date</th>
+        <th data-type="string">Run Time</th>
         <th data-type="string">Browser</th>
         <th data-type="string">Compared to</th>
-        <th data-type="buttons"></th>
+        <th data-type="buttons">&nbsp;</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr data-line="1">
         <td>8</td>
         <td>2</td>
         <td>Run on 09/29 13:00</td>
@@ -133,13 +132,13 @@
         <td>Firefox Baseline</td>
         <td>
         	<div class="control_buttons">
-        		<button class="check"></button>
-        		<button class="success"></button>
-        		<button class="remove"></button>
+        		<button class="check" data-check="1"></button>
+        		<button class="success" data-success="1"></button>
+        		<button class="remove" data-remove="1"></button>
         	</div>
         </td>
       </tr>
-      <tr>
+      <tr data-line="2">
         <td>11</td>
         <td>4</td>
         <td>Run on 09/29 13:00</td>
@@ -149,13 +148,13 @@
         <td>Firefox Baseline</td>
         <td>
         	<div class="control_buttons">
-        		<button class="check"></button>
-        		<button class="success"></button>
-        		<button class="remove"></button>
+        		<button class="check" data-check="2"></button>
+        		<button class="success" data-success="2"></button>
+        		<button class="remove" data-remove="2"></button>
         	</div>
         </td>
       </tr>
-      <tr>
+      <tr data-line="3">
         <td>4</td>
         <td>1</td>
         <td>Run on 09/26 16:59</td>
@@ -165,9 +164,9 @@
         <td>Chrome baseline</td>
         <td>
         	<div class="control_buttons">
-        		<button class="check"></button>
-        		<button class="success"></button>
-        		<button class="remove"></button>
+        		<button class="check" data-check="3"></button>
+        		<button class="success" data-success="3"></button>
+        		<button class="remove" data-remove="3"></button>
         	</div>
         </td>
       </tr>
