@@ -1,0 +1,260 @@
+body {
+  background: url("../img/backgrounds-grey.png"); }
+  body > header > .header_nav {
+    min-height: 39px; }
+    body > header > .header_nav .container_path > .block {
+      float: left; }
+      body > header > .header_nav .container_path > .block > .divider {
+        color: #f1a635; }
+      body > header > .header_nav .container_path > .block > a:nth-last-child(1) {
+        color: #f1a635; }
+      body > header > .header_nav .container_path > .block > a {
+        line-height: 40px; }
+    body > header > .header_nav .container_links > .block {
+      float: right; }
+      body > header > .header_nav .container_links > .block > a {
+        text-decoration: underline;
+        line-height: 40px;
+        font-size: 12px;
+        font-weight: 700;
+        padding-left: 8px; }
+      body > header > .header_nav .container_links > .block > span {
+        color: #cbcbcb; }
+      body > header > .header_nav .container_links > .block > button {
+        text-align: left;
+        padding-left: 13px;
+        min-height: 30px;
+        width: 80px;
+        border-radius: 3px;
+        outline: 0px;
+        background: linear-gradient(#ffffff, #ececec);
+        border: 1px solid #d8d8d8;
+        margin-left: 25px;
+        position: relative; }
+        body > header > .header_nav .container_links > .block > button:hover {
+          background: linear-gradient(#ececec, #ffffff); }
+        body > header > .header_nav .container_links > .block > button::after {
+          position: absolute;
+          display: block;
+          width: 8px;
+          height: 8px;
+          content: "";
+          background: url(../img/btn-arrow.png) 0 0 no-repeat;
+          top: 12px;
+          left: 57px; }
+  body > header > .header_search {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    background-color: white;
+    min-height: 52px; }
+    body > header > .header_search > div {
+      display: inline-block; }
+      body > header > .header_search > div > div {
+        display: inline-block; }
+    body > header > .header_search > .cont_left {
+      margin-right: 125px; }
+      body > header > .header_search > .cont_left > .btn_group_0 {
+        margin-top: 10px; }
+        body > header > .header_search > .cont_left > .btn_group_0 > button {
+          text-align: left;
+          padding-left: 13px;
+          display: block;
+          min-height: 30px;
+          width: 129px;
+          border-radius: 3px;
+          outline: 0px;
+          background: linear-gradient(#ffffff, #ececec);
+          border: 1px solid #d8d8d8;
+          margin: 0 0 0 7px;
+          position: relative; }
+          body > header > .header_search > .cont_left > .btn_group_0 > button:hover {
+            background: linear-gradient(#ececec, #ffffff); }
+          body > header > .header_search > .cont_left > .btn_group_0 > button::after {
+            position: absolute;
+            display: block;
+            width: 8px;
+            height: 8px;
+            content: "";
+            background: url(../img/btn-arrow.png) 0 0 no-repeat;
+            top: 12px;
+            left: 107px; }
+    body > header > .header_search > .cont_mid > .btn_group_1 {
+      margin-top: 10px;
+      margin-right: 14px; }
+      body > header > .header_search > .cont_mid > .btn_group_1 > button {
+        min-height: 30px;
+        width: 52px;
+        border-radius: 3px;
+        outline: 0px;
+        background-color: grey;
+        border: 1px solid #d8d8d8;
+        background: linear-gradient(#ffffff, #ececec);
+        position: relative; }
+        body > header > .header_search > .cont_mid > .btn_group_1 > button:hover {
+          background: linear-gradient(#ececec, #ffffff); }
+        body > header > .header_search > .cont_mid > .btn_group_1 > button::after {
+          position: absolute;
+          display: block;
+          width: 20px;
+          height: 20px;
+          content: "";
+          top: 6px;
+          left: 17px; }
+        body > header > .header_search > .cont_mid > .btn_group_1 > button:nth-child(1) {
+          border-radius: 4px 0 0 4px; }
+          body > header > .header_search > .cont_mid > .btn_group_1 > button:nth-child(1)::after {
+            background: url(../img/baseline.png) 0 0 no-repeat; }
+        body > header > .header_search > .cont_mid > .btn_group_1 > button:nth-child(2) {
+          border-radius: 0 4px 4px 0;
+          margin-left: -5px; }
+          body > header > .header_search > .cont_mid > .btn_group_1 > button:nth-child(2)::after {
+            background: url(../img/run.png) 0 0 no-repeat; }
+    body > header > .header_search > .cont_mid > .btn_group_2 {
+      margin-top: 10px; }
+      body > header > .header_search > .cont_mid > .btn_group_2 > button {
+        min-height: 30px;
+        width: 52px;
+        border-radius: 3px;
+        outline: 0px;
+        background: linear-gradient(#ffffff, #ececec);
+        border: 1px solid #d8d8d8;
+        position: relative; }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button:hover {
+          background: linear-gradient(#ececec, #ffffff); }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button::after {
+          position: absolute;
+          display: block;
+          width: 20px;
+          height: 20px;
+          content: "";
+          top: 6px;
+          left: 17px; }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(1) {
+          border-radius: 4px 0 0 4px; }
+          body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(1)::after {
+            background: url(../img/edit.png) 0 0 no-repeat; }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(2) {
+          border-radius: 0 0 0 0;
+          margin-left: -5px; }
+          body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(2)::after {
+            background: url(../img/settings.png) 0 0 no-repeat; }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(3) {
+          border-radius: 0 0 0 0;
+          margin-left: -5px; }
+          body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(3)::after {
+            background: url(../img/ignorerules.png) 0 0 no-repeat; }
+        body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(4) {
+          margin-left: -5px;
+          border-radius: 0 4px 4px 0; }
+          body > header > .header_search > .cont_mid > .btn_group_2 > button:nth-child(4)::after {
+            background: url(../img/trash.png) 0 0 no-repeat; }
+    body > header > .header_search > .cont_right {
+      float: right;
+      margin-top: 10px; }
+      body > header > .header_search > .cont_right > .search_group > input {
+        width: 220px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #d6d6d5; }
+  body > main {
+    width: 100%;
+    height: auto; }
+    body > main > .left_menu {
+      display: inline-block;
+      width: 249px;
+      border-right: 1px solid #eaeaea;
+      height: 600px;
+      padding-top: 7px; }
+      body > main > .left_menu > .list {
+        height: 41px;
+        width: 240px;
+        margin: auto;
+        border-bottom: 1px solid #eaeaea;
+        position: relative; }
+        body > main > .left_menu > .list > img {
+          position: absolute;
+          top: 12px;
+          left: 13px; }
+        body > main > .left_menu > .list > a {
+          position: absolute;
+          left: 30px;
+          top: 12px;
+          font-size: 12px;
+          color: #000; }
+    body > main > .right_menu {
+      display: inline-block;
+      height: 600px;
+      width: 1650px;
+      float: right;
+      padding-top: 7px; }
+      body > main > .right_menu > .test_block {
+        border: 1px solid #eaeaea;
+        width: 366px;
+        height: 162px;
+        margin-left: 2px;
+        background-color: #fff; }
+        body > main > .right_menu > .test_block > .left_side {
+          display: inline-block;
+          width: 110px; }
+          body > main > .right_menu > .test_block > .left_side > span {
+            display: block; }
+            body > main > .right_menu > .test_block > .left_side > span.left_side-title {
+              font-size: 18px;
+              padding: 10px 0 0 8px; }
+            body > main > .right_menu > .test_block > .left_side > span.left_side-item {
+              font-size: 13px;
+              padding: 26px 0 0 39px; }
+          body > main > .right_menu > .test_block > .left_side > img {
+            padding: 23px 0 0 35px;
+            display: block; }
+        body > main > .right_menu > .test_block > .right_side {
+          margin-right: 12px;
+          display: inline-block;
+          width: 230px;
+          position: relative;
+          float: right; }
+          body > main > .right_menu > .test_block > .right_side > .table {
+            margin-bottom: 7px; }
+            body > main > .right_menu > .test_block > .right_side > .table > table {
+              margin-top: 9px;
+              top: 0px; }
+              body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_header > td {
+                padding: 0 16.5px;
+                line-height: 30px;
+                background-color: #9a9a9a;
+                color: #fff;
+                font-weight: 800;
+                letter-spacing: 0px;
+                font-size: 12px; }
+              body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_main > td {
+                line-height: 37px;
+                border-bottom: 1px solid #e4e4e4;
+                background-color: #fafafa;
+                font-size: 12.2px;
+                font-weight: 600;
+                padding-left: 7px; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_main > td:nth-of-type(2), body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_main > td:nth-of-type(3) {
+                  text-decoration: underline;
+                  color: #4171b9;
+                  font-size: 12.5px; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_main > td:nth-of-type(3) {
+                  padding-left: 0px; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_main > td > img {
+                  margin-top: -4px;
+                  margin-left: 20px;
+                  margin-right: 3px; }
+              body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_footer > td {
+                font-size: 12px;
+                text-decoration: underline;
+                color: #4171b9;
+                padding: 10px 0 0 7px;
+                font-weight: 700; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_footer > td:nth-of-type(1) {
+                  text-decoration: none;
+                  color: #000; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_footer > td:nth-of-type(2) {
+                  padding: 10px 0 0 19px; }
+                body > main > .right_menu > .test_block > .right_side > .table > table > tbody > .t_footer > td:nth-of-type(3) {
+                  padding: 10px 0 0 11px; }
+
+/*# sourceMappingURL=sass.css.map */
